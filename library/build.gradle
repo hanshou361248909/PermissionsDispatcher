@@ -35,8 +35,8 @@ configurations {
 }
 
 dependencies {
-    compile "com.android.support:support-compat:$SUPPORT_LIBRARY_VERSION"
-    compile "com.android.support:support-v13:$SUPPORT_LIBRARY_VERSION"
+    compile "com.android.support:support-compat:24.2.1"
+    compile "com.android.support:support-v13:24.2.1"
 
     testCompile "junit:junit:$JUNIT_VERSION"
     testCompile "org.mockito:mockito-core:$MOCKITO_VERSION"
