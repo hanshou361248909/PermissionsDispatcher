@@ -3,7 +3,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath "com.android.tools.build:gradle:$GRADLE_PLUGIN_VERSION"
+        classpath 'com.android.tools.build:gradle:2.3.3'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$KOTLIN_VERSION"
         classpath "com.novoda:bintray-release:$BINTRAY_PLUGIN_VERSION"
         // Need this to publish SNAPSHOTs to JFrog
